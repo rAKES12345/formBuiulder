@@ -1,0 +1,307 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/screens/components/components.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.components_heading__h2eXM {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .components_componentContainer__sXrhu {
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 10px;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+  .components_componentContainer__sXrhu::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .components_item__GOAM4 {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .components_item__GOAM4:hover {
+    background-color: #e0e0e0;
+  }
+  
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/screens/ComponentSettings/componentsSettings.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.componentsSettings_heading__ztAa1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.componentsSettings_componentSettingsContainer__Y_uo5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 90vh;
+  overflow-y: auto; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Optional: Style scrollbars (if needed) */
+.componentsSettings_componentSettingsContainer__Y_uo5::-webkit-scrollbar {
+  width: 8px;
+}
+
+.componentsSettings_componentSettingsContainer__Y_uo5::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.componentsSettings_componentSettingsContainer__Y_uo5::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.componentsSettings_settingContainer__xOZx4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Add border for better visibility */
+  border-radius: 4px;
+}
+
+.componentsSettings_label__ktLvQ {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.componentsSettings_input__KgWQk, .componentsSettings_select__Xu2RW {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.componentsSettings_select__Xu2RW {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.componentsSettings_checkbox__1jbvA {
+  cursor: pointer;
+}
+
+.componentsSettings_checkboxContainer__wxjb1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Adjust spacing between checkboxes as needed */
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/screens/form/form.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.form_heading__P1Uf_ {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .form_formContainer__6ulnf {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+  .form_formContainer__6ulnf::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .form_formElementWrapper__B9rAd {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .form_deleteButton__tS5vV {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f44336; /* Red color */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Ensure it's above other elements */
+  }
+  
+  .form_deleteButton__tS5vV:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+  .form_deleteButton__tS5vV:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .form_deleteButton__tS5vV svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+ 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/screens/formElement/formElement.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.formElement_formElement__QtsN3 {
+  margin-bottom: 1rem;
+}
+
+.formElement_formLabel__1HoRf {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formElement_formInput__yxrKt,
+.formElement_formTextarea__Px_qj,
+.formElement_formSelect__WC6jz,
+.formElement_formCheckbox__Wqsjk,
+.formElement_formFile__Siv1y,
+.formElement_formButton__lwesC,
+.formElement_formInputGroupItem__NprWI {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formElement_formInput__yxrKt {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formElement_formTextarea__Px_qj {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formElement_formSelect__WC6jz {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formElement_formRadio__thZ_U {
+  display: flex;
+  gap: 1rem;
+}
+
+.formElement_formCheckbox__Wqsjk {
+  margin-right: 0.5rem;
+}
+
+.formElement_formFile__Siv1y {
+  display: block;
+}
+
+.formElement_formButton__lwesC {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formElement_formButtonGroup__VUbhU {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formElement_formInputGroup__N9qpF {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formElement_formInputGroupItem__NprWI {
+  flex: 1 1;
+}
+
+.formElement_formTitle__NOsXo {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.formElement_formParagraph__9Mf9P {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.formElement_formHtml__VEs3r {
+  font-size: 1rem;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_container__aoG4z {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 0;
+  background-color: #f0f0f0;
+  width:100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.page_column__8vhW8 {
+  flex: 1 1;
+  max-width: 300px;
+  height: 90vh;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.page_columnOne__TXji3{
+  flex:1 1;
+  max-width: 300px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .page_container__aoG4z {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+

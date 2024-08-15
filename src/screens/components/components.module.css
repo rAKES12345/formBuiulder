@@ -1,0 +1,35 @@
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .componentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 10px;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+  .componentContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #e0e0e0;
+  }
+  
